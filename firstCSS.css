@@ -1,0 +1,59 @@
+p{
+    text-align: center; color: red;
+}
+
+.block-me{
+    display:block;
+}
+
+.trimmed{
+    height: 20px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.scroll{
+    height: 50px;
+    width: 200px;
+    overflow: scroll;
+}
+
+.hover-me:hover{
+    background-color: green;
+}
+a:active{
+    color: red;
+}
+a:link{
+    color: palegreen;
+}
+a:visited{
+    color:blueviolet;
+}
+.inline-me, inline-you{
+    display: inline-block;
+    height: 20px;
+    width: 50%;
+}
+.relative-me{
+    position: relative;
+    top: 10px;
+}
+
+.fixed-me{
+    position: fixed;
+    top: 50px;
+    left: 200px;
+}
+
+/** 2px - border-width, solid - border-style, purple - border-color **/
+/* Margin, in order: top, right, bottom, left. Could also just do margin: 20px 30px
+the values will repeat themselves for bottom and left. Just typing
+margin: 20px will give a margin of 20px for all sides. */
+.rocket{
+    border: 2px solid purple; 
+    border-radius: 20px; 
+    margin: 90px 120px 90px 120px;
+    padding: 50px 100px
+    
+}
